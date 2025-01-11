@@ -6,6 +6,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    border: solid 2px black;
 }
 
 .container {
@@ -50,7 +51,7 @@ input[type="submit"]:hover {
     }
 }
 button {
-    background-color: blue;
+    background-color: green;
     color: white;
     padding: 10px;
     border: none;
