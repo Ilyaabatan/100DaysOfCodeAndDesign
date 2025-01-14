@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: gray;
+    border: solid 3px black;
+}
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+    border: solid 3px black;
+}
+th, td {
+    padding: 12px;
+    border-bottom: 2px solid #ddd;
+}
+th {
+    background-color: #f2f;
+}
+tr:hover {
+    background-color: #f1f1f1;
+}
