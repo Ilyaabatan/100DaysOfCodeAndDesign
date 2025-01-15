@@ -15,10 +15,14 @@ table {
     font-size: 18px;
     text-align: left;
     border: solid 3px black;
+    background-color: slategray;
 }
-th, td {
+table,th, td {
     padding: 12px;
     border-bottom: 2px solid #ddd;
+    border-left: 2px solid #ddd;
+    border-right: 2px solid #ddd;
+    border-radius: 10px;
 }
 th {
     background-color: #f2f;
