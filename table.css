@@ -5,8 +5,9 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: gray;
+    
     border: solid 3px black;
+    background-color: slategray;
 }
 table {
     width: 80%;
@@ -15,7 +16,7 @@ table {
     font-size: 18px;
     text-align: left;
     border: solid 3px black;
-    background-color: slategray;
+    background-color: gray;
 }
 table,th, td {
     padding: 12px;
