@@ -6,7 +6,7 @@ body {
     height: 100vh;
     margin: 0;
     
-    border: solid 3px black;
+    border: solid 1px black;
     background-color: slategray;
 }
 table {
