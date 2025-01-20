@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars Rent</title>
+    <link rel="stylesheet" href="Rent.css">
+</head>
+<body>
+    <div class="demo">
+        <section>
+            <h1>Cars Rent</h1>
+            <article class="flyer">
+                <p>Rent the cars <marquee behavior="alternate" direction="left">Of your choice</marquee></p>
+
+            </article>
+            <div class="navbar">
+                <section id="navlist">
+                    <article>
+                        <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="rent.html">Rent</a>
+                    <a href="contact.html">Contact</a>
+      
+                    </article>
+                    <article class="search">
+                        <form action="#">
+                            <input type="text" placeholder="Search for cars" name="search">
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                        </form>
+                    </article>
+                </section>
+            </div>
+            <article class="containt">
+                <p>Rent cars dailty, weekly or monthly for fairer and more affordable car sharing experiences.</p>
+                <p>Ditches those outrageous premiums from big-brand car rental mobs.</p>
+
+            </article>
+            <article class="containt">
+                <p>Choose from a variety of cars, from sedans to SUVs to luxury cars, and rent them for as long as you want.</p>
+                <p>Our cars are well-maintained and are available for rent at any time.</p>
+            </article>
+            <article class="containt">
+                <p>Our cars are available for rent at any time.</p>
+                <p>Our cars are well-maintained and are available for rent at any time.</p>
+            </article>
+            <article class="containts">
+                <form action="rent.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required>
+                    <label for="phone">Phone:</label>
+                    <input type="tel" name="phone" id="phone" required>
+                    <label for="car">Car:</label>
+                    <select name="car" id="car" required>
+                        <option value="volvo">Volvo</option>
+                        <option value="bmw">BMW</option>
+                        <option value="mercedes">Mercedes</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                    <label for="date">Date:</label>
+                    <input type="date" name="date" id="date" required>
+                    <button type="submit">Rent</button>
+                </form>
+            </article>
+        </section>
+    </div>
+</body>
+</html>
