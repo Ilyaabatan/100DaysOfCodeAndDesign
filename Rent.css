@@ -1,7 +1,31 @@
 body {
+    background-image: url("car.jpg");
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+}
+.demo {
+    text-align: left;
+    margin: 30px;
+    background-color: ;
+    padding: 20px;
+
+}
+.navbar{
+    text-align: left;
+}
+p{
+    background-color: rgb(149, 142, 149);
+    border-collapse: collapse;
+    border-radius: 2px;
+    
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(149, 142, 149);
+
 }
 
 #navlist {
