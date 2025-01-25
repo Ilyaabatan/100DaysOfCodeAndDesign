@@ -65,7 +65,7 @@ body.on{
 
 }
 
-.on .bulb{
+.on .bulb i{
     color: #ffd700;
 }
 .on .switch{
